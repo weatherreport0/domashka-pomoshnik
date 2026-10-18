@@ -1,0 +1,13 @@
+{
+  "name": "domashka-chat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.mjs",
+    "dev": "node --disable-warning=ExperimentalWarning server.mjs",
+    "mock": "node scripts/mock-upstream.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

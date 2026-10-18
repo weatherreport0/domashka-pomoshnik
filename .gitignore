@@ -1,0 +1,11 @@
+node_modules
+.vercel
+.env*
+!.env.example
+data/
+
+# служебные файлы ИИ-помощников, на сайт не нужны
+.claude/
+.agents/
+skills-lock.json
+build/
